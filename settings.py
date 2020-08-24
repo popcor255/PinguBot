@@ -12,7 +12,7 @@ load_dotenv()
 default = {"activity": discord.Activity(type=discord.ActivityType.watching,
                                         name="Pingu in the City"),
            "desc": "Noot Noot at your service",
-           "prefix": "%",
+           "prefix": "!",
            "status": discord.Status.online}
 TOKEN = os.environ.get("PINGU_TOKEN")
 COGS = ["admin", "alert", "clown", "help"]
